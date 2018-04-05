@@ -1,0 +1,7 @@
+D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\Trabajos_Practicos\TRABAJO_PRACTICO_01\Entidades\Entidades\bin\Debug\Entidades.exe.config
+D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\Entidades\bin\Debug\Entidades.exe.config
+D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\Entidades\bin\Debug\Entidades.exe
+D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\Entidades\bin\Debug\Entidades.pdb
+D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\Entidades\obj\Debug\Entidades.exe
+D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\Entidades\obj\Debug\Entidades.pdb
