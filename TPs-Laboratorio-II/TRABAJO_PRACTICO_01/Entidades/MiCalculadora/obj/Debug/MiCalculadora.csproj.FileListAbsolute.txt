@@ -9,3 +9,14 @@ D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\T
 D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
 D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\Entidades.exe
 D:\OneDrive\UTN\2DO - CUATRIMESTRE\Programacion & Laboratorio II\WORKSPACE\TPs\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\Entidades.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Form1.resources
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache

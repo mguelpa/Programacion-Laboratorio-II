@@ -8,58 +8,43 @@ namespace Entidades
 {
     public class Numero
     {
+        #region FIELDS
         private double numero;
-        public void SetNumero(string data)
+        #endregion
+
+        #region PROPERTIES
+        private void SetNumero(string strValue)
         {
-            numero = ValidarNumero(data);
+            this.numero = ValidarNumero(strValue);
         }
-        public double GetNumero()
+        #endregion
+
+        #region CONSTRUCTORS
+        public Numero() { }
+        public Numero(double numero)
         {
-            return numero;
+            this.numero = numero;
         }
-        //////////////////////////////////
+        public Numero(string strNumero)
+        {
+            SetNumero(strNumero);
+        }
+        #endregion
 
-
-
+        #region METHODS
         private double ValidarNumero(string strNumber)
         {
             int i = 0;
 
-            while(strNumber[i] != 10)
+            for (i = 0; i < strNumber.Length; i++)
             {
-                if(!char.IsDigit(strNumber[i]))
+                if (!char.IsDigit(strNumber[i]))
                 {
                     return 0;
                 }
-                i++;
             }
             return double.Parse(strNumber);
         }
-        //////////////////////////////////////////////////////
-
-        public static long BinarioDecimal(string strBinario)
-        {
-            int i = 0, j = 0;
-            int number = 0;
-            long resultado = 0;
-
-            if(ValidarBinario(strBinario) != null)
-            {
-                for (i = strBinario.Length; i > 0; i--)
-                {
-                    number = (int)Char.GetNumericValue(strBinario[i - 1]);
-                    resultado = resultado + number * (long)Math.Pow(2, j);
-                    j++;
-                }
-            }
-            else
-            {
-                Console.WriteLine("Valor Invalido");
-            }
-
-            return resultado;
-        }
-        //////////////////////////////////////////////////////
 
         private static string ValidarBinario(string strUserData)
         {
@@ -76,61 +61,98 @@ namespace Entidades
             return strUserData;
         }
 
-
-        //////////////////////////////////////////////////////
-
-        public static string DecimalBinario(string userData)
+        public static string BinarioDecimal(string binario)
         {
-            string returnAux = null;
-            int length;
-            int data;
-            int i;
+            int i = 0, j = 0;
+            int aux = 0;
+            long resultado = 0;
 
-            if(int.TryParse(userData, out data))
+            if (ValidarBinario(binario) != null)
             {
-                length = GetArrayLenght(data);
-                int[] resultadoBinario = new int[length];
-
-                while (data > 1)
+                for (i = binario.Length; i > 0; i--)
                 {
-                    resultadoBinario[length - 1] = data % 2;
-                    data = data / 2;
-                    length--;
+                    aux = (int)Char.GetNumericValue(binario[i - 1]);
+                    resultado = resultado + aux * (long)Math.Pow(2, j);
+                    j++;
                 }
-
-                resultadoBinario[length -1] = data;
-
-                StringBuilder builder = new StringBuilder();
-
-                for (i = 0; i < resultadoBinario.Length; i++)
-                {
-                    builder.Append(resultadoBinario[i]);
-                }
-                returnAux = builder.ToString();
             }
             else
             {
-                Console.WriteLine("Valor Invalido");
-                //returnAux = "Valor Invalido";
+                return ("Valor Invalido");
             }
-            return returnAux;
+
+            return Convert.ToString(resultado);
         }
 
-        private static int GetArrayLenght(int integer)
+        public static string DecimalBinario(double numero)
         {
-            int length = 0;
-            while (integer > 1)
+            string aux = Convert.ToString(numero);
+
+            if (aux != null)
             {
-                integer = integer / 2;
-                length++;
+                return DecimalBinario(aux);
             }
-            return length +1;
+            else
+            {
+                return ("Valor Invalido");
+            }
+        }
+
+        public static string DecimalBinario(string numero)
+        {
+            string resultado = null;
+            long data;
+            int i = 0, j = 0;
+
+            if (long.TryParse(numero, out data))
+            {
+                while (data > 1)
+                {
+                    resultado = Convert.ToString(data % 2) + resultado;
+                    data = data / 2;
+                    i++;
+                    if (i == 4)
+                    {
+                        i = 0;
+                        j++;
+                        resultado = " " + resultado;
+                    }
+                }
+                resultado = "1" + resultado;
+                i = resultado.Length - j;
+                while (i % 4 != 0)
+                {
+                    resultado = "0" + resultado;
+                    i++;
+                }
+            }
+            else
+            {
+                return ("Valor Invalido");
+            }
+            return resultado;
         }
 
 
+        #endregion
 
-
-
-
+        #region OVERLOADED OPERATORS
+        public static double operator +(Numero n1, Numero n2)
+        {
+            return n1.numero + n2.numero;
+        }
+        public static double operator -(Numero n1, Numero n2)
+        {
+            return n1.numero - n2.numero;
+        }
+        public static double operator *(Numero n1, Numero n2)
+        {
+            return n1.numero * n2.numero;
+        }
+        public static double operator /(Numero n1, Numero n2)
+        {
+            return n1.numero / n2.numero;
+        }
+        #endregion
     }
 }

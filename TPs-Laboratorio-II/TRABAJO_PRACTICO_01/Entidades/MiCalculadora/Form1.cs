@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 using Entidades;
 
+
 namespace MiCalculadora
 {
     public partial class Form1 : Form
@@ -19,14 +20,7 @@ namespace MiCalculadora
             InitializeComponent();
         }
 
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-
-
+        
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -54,16 +48,11 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            int numero1, numero2;
-
-            if (int.TryParse(txtNumero1.Text, out numero1) && int.TryParse(txtNumero2.Text, out numero2))
-            {
-                lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, cmbOperador.Text));
-            }
-            else
-            {
-                lblResultado.Text = "Error de formato";
-            }            
+            Numero numero1 = new Numero(txtNumero1.Text);
+            Numero numero2 = new Numero(txtNumero2.Text);
+              
+            lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, cmbOperador.Text));
+          
         }
 
         private void txtNumero1_Click(object sender, EventArgs e)
@@ -76,6 +65,11 @@ namespace MiCalculadora
         {
             if (txtNumero2.Text == "0")
                 txtNumero2.Text = "";
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

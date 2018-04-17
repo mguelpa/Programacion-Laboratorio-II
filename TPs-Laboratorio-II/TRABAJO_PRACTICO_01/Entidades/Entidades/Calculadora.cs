@@ -12,34 +12,35 @@ namespace Entidades
         {
             int i = 0;
 
-            while(operador[i] != 10)
+            while (operador[i] != 10)
             {
-                if (operador[i] != '+' || operador[i] != '-' || operador[i] != '/' || operador[i] != '*')
+                if (operador[i] != 43 || operador[i] != 45 || operador[i] != 42 || operador[i] != 47)
                 {
-                    return char.ToString('+'); 
+                    return "+";
                 }
                 i++;
             }
             return operador;
         }
 
-        public static double Operar(int valueA, int valueB, string operador)
+        public static double Operar(Numero num1, Numero num2, string operador)
         {
             double resultado = 0;
+            string opcion = ValidarOperador(operador);
 
-            switch(operador[0])
+            switch (opcion[0])
             {
                 case '+':
-                    resultado = valueA + valueB;
+                    resultado = num1 + num2;
                     break;
                 case '-':
-                    resultado = valueA - valueB;
+                    resultado = num1 - num2;
                     break;
                 case '/':
-                    resultado = valueA / valueB;
+                    resultado = num1 / num2;
                     break;
                 case '*':
-                    resultado = valueA * valueB;
+                    resultado = num1 * num2;
                     break;
             }
             return resultado;
