@@ -46,16 +46,22 @@ namespace Entidades
             return double.Parse(strNumber);
         }
 
-        private static string ValidarBinario(string strUserData)
+        public static string ValidarBinario(string strUserData)
         {
             int i = 0;
 
             while (i < strUserData.Length)
             {
-                if (strUserData[i] != '0' || strUserData[i] != '1' /*|| strUserData[i] > ' '*/)
+                if (strUserData[i] != ' ' || (strUserData[i] == ' ' && strUserData[i-1] == ' '))
                 {
-                    return null;
-                }
+                    if (strUserData[i] != '0')
+                    {
+                        if (strUserData[i] != '1')
+                        {
+                            return null;
+                        }
+                    }
+                }               
                 i++;
             }
             return strUserData;
@@ -71,8 +77,10 @@ namespace Entidades
             {
                 for (i = binario.Length; i > 0; i--)
                 {
-                    /*if (binario[i] == ' ')
-                        continue;*/
+                    if (binario[i-1] == ' ')
+                    {
+                        continue;
+                    }
                     aux = (int)Char.GetNumericValue(binario[i - 1]);
                     resultado = resultado + aux * (long)Math.Pow(2, j);
                     j++;

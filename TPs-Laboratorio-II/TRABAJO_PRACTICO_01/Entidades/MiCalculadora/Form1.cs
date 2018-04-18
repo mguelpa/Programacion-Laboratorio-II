@@ -40,15 +40,16 @@ namespace MiCalculadora
             txtNumero2.Text = "0";
             lblResultado.Text = "";
             cmbOperador.Text = "Operador";
-            cmbOperador.Items.Clear();
+            //cmbOperador.Items.Clear();
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
             Numero numero1 = new Numero(txtNumero1.Text);
             Numero numero2 = new Numero(txtNumero2.Text);
+            MessageBox.Show(cmbOperador.SelectedItem.ToString());
 
-            lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, cmbOperador.Text));
+            lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, "*"));
         }
 
         private void txtNumero1_Click(object sender, EventArgs e)

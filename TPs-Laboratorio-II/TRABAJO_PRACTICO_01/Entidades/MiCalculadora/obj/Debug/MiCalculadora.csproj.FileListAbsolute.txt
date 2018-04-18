@@ -9,3 +9,14 @@ C:\Users\maxin\Desktop\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Propertie
 C:\Users\maxin\Desktop\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache
 C:\Users\maxin\Desktop\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
 C:\Users\maxin\Desktop\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\Entidades.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\bin\Debug\Entidades.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csprojResolveAssemblyReference.cache
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.LaCalculadora.resources
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_01\Entidades\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.Cache

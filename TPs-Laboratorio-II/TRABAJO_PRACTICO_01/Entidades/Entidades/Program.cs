@@ -19,6 +19,11 @@ namespace Entidades
             Console.WriteLine("division = {0}", Calculadora.Operar(num1, num2, "/"));
             Console.WriteLine("h = {0}", Calculadora.Operar(num1, num2, "h"));
 
+            
+            Console.WriteLine("{0}", Numero.ValidarBinario("0110 0100"));
+            Console.WriteLine("{0}", Numero.BinarioDecimal("0100 0100 1100 0111 0101"));
+
+
             Console.ReadKey();
         }
     }

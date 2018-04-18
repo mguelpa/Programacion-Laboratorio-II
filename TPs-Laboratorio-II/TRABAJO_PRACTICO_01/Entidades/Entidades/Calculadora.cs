@@ -14,7 +14,7 @@ namespace Entidades
 
             while (operador[i] != 10)
             {
-                if (operador[i] != 43 || operador[i] != 45 || operador[i] != 42 || operador[i] != 47)
+                if ((operador[i] != 43 || operador[i] != 45 || operador[i] != 42 || operador[i] != 47))
                 {
                     return "+";
                 }

@@ -53,7 +53,7 @@
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(100, 21);
             this.cmbOperador.TabIndex = 18;
-            this.cmbOperador.Text = "Operador";
+            this.cmbOperador.Text = "       Operador";
             // 
             // txtNumero2
             // 
