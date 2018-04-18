@@ -52,7 +52,7 @@ namespace Entidades
 
             while (i < strUserData.Length)
             {
-                if (strUserData[i] < '0' || strUserData[i] > '1')
+                if (strUserData[i] < '0' || strUserData[i] > '1' /*|| strUserData[i] > ' '*/)
                 {
                     return null;
                 }
@@ -71,6 +71,8 @@ namespace Entidades
             {
                 for (i = binario.Length; i > 0; i--)
                 {
+                    /*if (binario[i] == ' ')
+                        continue;*/
                     aux = (int)Char.GetNumericValue(binario[i - 1]);
                     resultado = resultado + aux * (long)Math.Pow(2, j);
                     j++;
