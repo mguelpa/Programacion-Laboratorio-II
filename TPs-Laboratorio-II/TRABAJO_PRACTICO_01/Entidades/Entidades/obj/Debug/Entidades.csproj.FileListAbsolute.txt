@@ -1,0 +1,6 @@
+C:\Users\maxin\Desktop\Entidades\Entidades\bin\Debug\Entidades.exe.config
+C:\Users\maxin\Desktop\Entidades\Entidades\bin\Debug\Entidades.exe
+C:\Users\maxin\Desktop\Entidades\Entidades\bin\Debug\Entidades.pdb
+C:\Users\maxin\Desktop\Entidades\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+C:\Users\maxin\Desktop\Entidades\Entidades\obj\Debug\Entidades.exe
+C:\Users\maxin\Desktop\Entidades\Entidades\obj\Debug\Entidades.pdb
