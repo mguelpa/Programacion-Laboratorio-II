@@ -28,6 +28,7 @@ namespace Entidades
             double resultado = 0;
             string opcion = ValidarOperador(operador);
 
+
             switch (opcion[0])
             {
                 case '+':

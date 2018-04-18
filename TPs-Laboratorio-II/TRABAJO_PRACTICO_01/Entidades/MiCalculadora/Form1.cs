@@ -47,9 +47,9 @@ namespace MiCalculadora
         {
             Numero numero1 = new Numero(txtNumero1.Text);
             Numero numero2 = new Numero(txtNumero2.Text);
-            MessageBox.Show(cmbOperador.SelectedItem.ToString());
+            //MessageBox.Show(cmbOperador.SelectedItem.ToString());
 
-            lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, "*"));
+            lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, cmbOperador.SelectedItem.ToString()));
         }
 
         private void txtNumero1_Click(object sender, EventArgs e)
