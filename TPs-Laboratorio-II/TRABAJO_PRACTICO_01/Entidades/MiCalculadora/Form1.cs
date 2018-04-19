@@ -39,17 +39,19 @@ namespace MiCalculadora
             txtNumero1.Text = "0";
             txtNumero2.Text = "0";
             lblResultado.Text = "";
-            cmbOperador.Text = "Operador";
-            //cmbOperador.Items.Clear();
+            lblTextComboBox.Text = "Operador";
+            cmbOperador.SelectedItem = null;
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
             Numero numero1 = new Numero(txtNumero1.Text);
             Numero numero2 = new Numero(txtNumero2.Text);
-            //MessageBox.Show(cmbOperador.SelectedItem.ToString());
 
-            lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, cmbOperador.SelectedItem.ToString()));
+            if (cmbOperador.SelectedItem == null)
+                lblResultado.Text = "Seleccione Operador";
+            else
+                lblResultado.Text = Convert.ToString(Entidades.Calculadora.Operar(numero1, numero2, cmbOperador.SelectedItem.ToString()));
         }
 
         private void txtNumero1_Click(object sender, EventArgs e)
@@ -62,6 +64,14 @@ namespace MiCalculadora
         {
             if (txtNumero2.Text == "0")
                 txtNumero2.Text = "";
+        }
+
+        private void cmbOperador_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if(cmbOperador.SelectedItem != null)
+            lblTextComboBox.Text = cmbOperador.SelectedItem.ToString();
+
+
         }
     }
 }

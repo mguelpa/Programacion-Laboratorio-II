@@ -111,30 +111,33 @@ namespace Entidades
         public static string DecimalBinario(string numero)
         {
             string resultado = null;
-            long data;
             int i = 0, j = 0;
+            long data;
 
             if (long.TryParse(numero, out data))
             {
-                while (data > 1)
+                if (data > 0)
                 {
-                    resultado = Convert.ToString(data % 2) + resultado;
-                    data = data / 2;
-                    i++;
-                    if (i == 4)
+                    while (data > 1)
                     {
-                        i = 0;
-                        j++;
-                        resultado = " " + resultado;
+                        resultado = Convert.ToString(data % 2) + resultado;
+                        data = data / 2;
+                        i++;
+                        if (i == 4)
+                        {
+                            i = 0;
+                            j++;
+                            resultado = " " + resultado;
+                        }
                     }
+                    resultado = "1" + resultado;
+                    i = resultado.Length - j;
                 }
-                resultado = "1" + resultado;
-                i = resultado.Length - j;
-                while (i % 4 != 0)
+                while (i % 4 != 0 || i == 0)
                 {
                     resultado = "0" + resultado;
                     i++;
-                }
+                }                
             }
             else
             {

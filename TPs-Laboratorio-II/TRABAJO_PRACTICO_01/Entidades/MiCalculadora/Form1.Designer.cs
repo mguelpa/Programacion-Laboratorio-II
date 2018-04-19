@@ -55,6 +55,7 @@
             this.cmbOperador.Name = "cmbOperador";
             this.cmbOperador.Size = new System.Drawing.Size(18, 21);
             this.cmbOperador.TabIndex = 18;
+            this.cmbOperador.SelectedIndexChanged += new System.EventHandler(this.cmbOperador_SelectedIndexChanged);
             // 
             // txtNumero2
             // 
@@ -152,14 +153,15 @@
             // 
             // lblTextComboBox
             // 
-            this.lblTextComboBox.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTextComboBox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.lblTextComboBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblTextComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTextComboBox.Location = new System.Drawing.Point(124, 14);
-            this.lblTextComboBox.Margin = new System.Windows.Forms.Padding(5);
+            this.lblTextComboBox.Margin = new System.Windows.Forms.Padding(5, 5, 0, 5);
             this.lblTextComboBox.Name = "lblTextComboBox";
-            this.lblTextComboBox.Size = new System.Drawing.Size(81, 21);
+            this.lblTextComboBox.Size = new System.Drawing.Size(77, 21);
             this.lblTextComboBox.TabIndex = 19;
-            this.lblTextComboBox.Text = "OPERADOR";
+            this.lblTextComboBox.Text = "Operador";
             this.lblTextComboBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LaCalculadora
