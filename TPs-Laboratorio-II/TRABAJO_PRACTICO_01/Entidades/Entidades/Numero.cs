@@ -13,10 +13,18 @@ namespace Entidades
         #endregion
 
         #region PROPERTIES
-        private void SetNumero(string strValue)
+        //private void SetNumero(string strValue)
+        //{
+        //    this.numero = ValidarNumero(strValue);
+        //}
+
+        public string SetNumero
         {
-            this.numero = ValidarNumero(strValue);
-        }
+            set
+            {
+                this.numero = ValidarNumero(value);
+            }
+        }        
         #endregion
 
         #region CONSTRUCTORS
@@ -27,7 +35,7 @@ namespace Entidades
         }
         public Numero(string strNumero)
         {
-            SetNumero(strNumero);
+            this.numero = Convert.ToDouble(strNumero);
         }
         #endregion
 

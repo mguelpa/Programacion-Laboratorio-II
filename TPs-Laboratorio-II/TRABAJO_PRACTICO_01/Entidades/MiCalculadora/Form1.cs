@@ -26,12 +26,27 @@ namespace MiCalculadora
 
         private void btnConvertirABinario_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = Convert.ToString(Numero.DecimalBinario(lblResultado.Text));
+            int numero;
+
+
+            if (int.TryParse(lblResultado.Text, out numero) && numero > -1)
+                lblResultado.Text = Convert.ToString(Numero.DecimalBinario(lblResultado.Text));
+            else if(lblResultado.Text == "Resultado" || lblResultado.Text == "")
+                lblResultado.Text = "Resultado";
+            else if (lblResultado.Text == "Valor Invalido" || lblResultado.Text == "Seleccione Operador" || lblResultado.Text == "Seleccione Operador" || lblResultado.Text == "Realice una operacion")
+                lblResultado.Text = "Realice una operacion";
+            else
+                lblResultado.Text = "Solo enteros positivos!!";
         }
 
         private void btnConvertirADecimal_Click(object sender, EventArgs e)
         {
-            lblResultado.Text = Convert.ToString(Numero.BinarioDecimal(lblResultado.Text));
+            if (lblResultado.Text == "Resultado" || lblResultado.Text == "")
+                lblResultado.Text = "Resultado";
+            else if (lblResultado.Text == "Realice una operacion" || lblResultado.Text == "Seleccione Operador")
+                lblResultado.Text = "Realice una operacion";
+            else
+                lblResultado.Text = Convert.ToString(Numero.BinarioDecimal(lblResultado.Text));
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -45,8 +60,12 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            Numero numero1 = new Numero(txtNumero1.Text);
-            Numero numero2 = new Numero(txtNumero2.Text);
+            Numero numero1 = new Numero(/*txtNumero1.Text*/);
+            Numero numero2 = new Numero(/*txtNumero2.Text*/);
+
+            numero1.SetNumero = txtNumero1.Text;
+            numero2.SetNumero = txtNumero2.Text;
+
 
             if (cmbOperador.SelectedItem == null)
                 lblResultado.Text = "Seleccione Operador";
