@@ -10,16 +10,18 @@ namespace Entidades
     {
         private static string ValidarOperador(string operador)
         {
-            int i = 0;
-
-            while (operador[i] != 10)
+            char aux;
+            if (operador != null && operador.Length == 1)
             {
-                if ((operador[i] != 43 || operador[i] != 45 || operador[i] != 42 || operador[i] != 47))
+                aux = Convert.ToChar(operador);
+
+                if ((aux != '+' && aux != '-' && aux != '*' && aux != '/'))
                 {
-                    return "+";
+                    operador = "+";
                 }
-                i++;
             }
+            else { operador = "+"; }
+
             return operador;
         }
 
