@@ -28,7 +28,6 @@ namespace MiCalculadora
         {
             int numero;
 
-
             if (int.TryParse(lblResultado.Text, out numero) && numero > -1)
                 lblResultado.Text = Convert.ToString(Numero.DecimalBinario(lblResultado.Text));
             else if(lblResultado.Text == "Resultado" || lblResultado.Text == "")
@@ -60,8 +59,8 @@ namespace MiCalculadora
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
-            Numero numero1 = new Numero(/*txtNumero1.Text*/);
-            Numero numero2 = new Numero(/*txtNumero2.Text*/);
+            Numero numero1 = new Numero();
+            Numero numero2 = new Numero();
 
             numero1.SetNumero = txtNumero1.Text;
             numero2.SetNumero = txtNumero2.Text;
@@ -89,8 +88,6 @@ namespace MiCalculadora
         {
             if(cmbOperador.SelectedItem != null)
             lblTextComboBox.Text = cmbOperador.SelectedItem.ToString();
-
-
         }
     }
 }
