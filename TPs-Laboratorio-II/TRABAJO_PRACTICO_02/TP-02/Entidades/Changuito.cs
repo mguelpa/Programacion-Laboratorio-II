@@ -40,7 +40,6 @@ namespace Entidades_2017
         #endregion
 
         #region "Métodos"
-
         /// <summary>
         /// Expone los datos del elemento y su lista (incluidas sus herencias)
         /// SOLO del tipo requerido
@@ -78,11 +77,6 @@ namespace Entidades_2017
         #endregion
 
         #region "Operadores"
-
-        
-
-
-
         /// <summary>
         /// Agregará un elemento a la lista
         /// </summary>

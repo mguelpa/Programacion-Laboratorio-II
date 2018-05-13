@@ -25,3 +25,8 @@ C:\Users\maxin\Desktop\TP02\TP-02\TP-02\bin\Debug\Entidades.pdb
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\bin\Debug\TP-02.exe.config
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\obj\Debug\TP-02.exe
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\obj\Debug\TP-02.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\bin\Debug\TP-02.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\bin\Debug\TP-02.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\bin\Debug\Entidades.dll
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\bin\Debug\Entidades.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_02\TP-02\TP-02\obj\Debug\TP-02.csprojResolveAssemblyReference.cache
