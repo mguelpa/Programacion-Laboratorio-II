@@ -1,0 +1,50 @@
+Tenemos 5 lugares ocupados de un total de 5 disponibles
+DULCE
+CODIGO DE BARRAS: ASD012
+MARCA          : Sancor
+COLOR EMPAQUE  : Black
+---------------------
+
+CALORIAS : 80
+---------------------
+
+DULCE
+CODIGO DE BARRAS: ASD913
+MARCA          : Ilolay
+COLOR EMPAQUE  : Red
+---------------------
+
+CALORIAS : 80
+---------------------
+
+LECHE
+CODIGO DE BARRAS: HJK789
+MARCA          : Pepsico
+COLOR EMPAQUE  : White
+---------------------
+
+CALORIAS : 20TIPO : Entera
+
+---------------------
+
+LECHE
+CODIGO DE BARRAS: IOP852
+MARCA          : Serenisima
+COLOR EMPAQUE  : Blue
+---------------------
+
+CALORIAS : 20TIPO : Descremada
+
+---------------------
+
+SNACKS
+CODIGO DE BARRAS: QWE968
+MARCA          : Campagnola
+COLOR EMPAQUE  : Gray
+---------------------
+
+CALORIAS : 104
+---------------------
+
+
+<---------------------------------------------->
