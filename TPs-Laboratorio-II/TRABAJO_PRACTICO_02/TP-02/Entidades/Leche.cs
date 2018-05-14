@@ -13,7 +13,7 @@ namespace Entidades_2017
         public enum ETipo { Entera, Descremada }
 
         #region - Fields -
-        ETipo _tipo;
+        private ETipo _tipo;
         #endregion
 
         #region - Properties -

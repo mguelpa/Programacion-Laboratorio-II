@@ -17,9 +17,9 @@ namespace Entidades_2017
         }
 
         #region - Fields -
-        EMarca _marca;
-        string _codigoDeBarras;
-        ConsoleColor _colorPrimarioEmpaque;
+        private string _codigoDeBarras;
+        private ConsoleColor _colorPrimarioEmpaque;
+        private EMarca _marca;
         #endregion
 
         #region - Properties -
