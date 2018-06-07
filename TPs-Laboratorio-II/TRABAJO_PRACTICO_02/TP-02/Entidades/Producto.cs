@@ -58,7 +58,7 @@ namespace Entidades_2017
         /// <returns></returns>
         public static bool operator !=(Producto v1, Producto v2)
         {
-            return (v1._codigoDeBarras == v2._codigoDeBarras);
+            return !(v1== v2);
         }
         #endregion
 
