@@ -12,22 +12,28 @@ namespace Entidades
         public delegate void DelegadoEstado(object sender, EventArgs e);
 
         #region ** CLASS CORE **
+        // >> Fields
+        private string direccionEntrega;
+        private EEstado estado;
+        private string trackingID;
+
         // >> Properties
         public string DireccionEntrega
         {
-            get { throw new NotFiniteNumberException(); }
-            set { throw new NotFiniteNumberException(); }
+            get { return this.direccionDeEntrega; }
+            set { this.direccionDeEntrega = value; }
         }
         public EEstado Estado
         {
-            get { throw new NotFiniteNumberException(); }
-            set { throw new NotFiniteNumberException(); }
+            get { return this.estado; }
+            set { this.estado = value; }
         }
         public string TrackingID
         {
-            get { throw new NotFiniteNumberException(); }
-            set { throw new NotFiniteNumberException(); }
+            get { return this.trackingID; }
+            set { this.trackingID = value; }
         }
+        
         // >> Costructors
         public Paquete(string direccionDeEntrega, string trackingID)
         {
@@ -38,17 +44,18 @@ namespace Entidades
         // >> Show Data
         public override string ToString()
         {
-            return base.ToString();
+            return this.MostrarDatos(this);
         }
         public string MostrarDatos(IMostrar<Paquete> elemento)
         {
-            StringBuilder sb = new StringBuilder();
-            //sb.AppendLine("" + this.attribute1);
-            //sb.AppendLine("" + this.attribute2);
-            //sb.AppendLine("" + this.attribute3);
-            //sb.AppendLine("" + this.attribute4);
+            // MostrarDatos utilizará string.Format con el 
+            // siguiente formato "{0} para {1}", p.trackingID,
+            // p.direccionEntrega para compilar la información 
+            // del paquete.
 
-            return sb.ToString();
+            string s = string.Format("{0} para {1}", this.trackingID, this.direccionEntrega);
+
+            return s;
         }
         #endregion
 
