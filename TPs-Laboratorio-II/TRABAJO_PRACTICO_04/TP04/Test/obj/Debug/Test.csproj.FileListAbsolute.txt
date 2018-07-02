@@ -1,8 +1,9 @@
-D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Test.exe.config
-D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Test.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Test.dll
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Test.pdb
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Entidades.dll
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Entidades.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
-D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\obj\Debug\Test.exe
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\obj\Debug\Test.dll
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Test\obj\Debug\Test.pdb

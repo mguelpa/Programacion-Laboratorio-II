@@ -9,9 +9,10 @@ namespace Entidades
 {
     public static class GuardaString
     {
+
         public static bool GaurdarString(this string texto, string archivo)
         {
-            if(File.Exists(archivo))
+            if (File.Exists(archivo))
             {
                 try
                 {
@@ -34,7 +35,7 @@ namespace Entidades
                 sr.Close();
                 return true;
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 Console.WriteLine(e.Message);
             }

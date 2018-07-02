@@ -17,3 +17,14 @@ D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_P
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.MainForm.resources
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.Cache
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\bin\Debug\MainCorreo.exe.config
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\bin\Debug\MainCorreo.exe
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\bin\Debug\MainCorreo.pdb
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\bin\Debug\Entidades.dll
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\bin\Debug\Entidades.pdb
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.csprojResolveAssemblyReference.cache
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.MainForm.resources
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.Properties.Resources.resources
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.csproj.GenerateResource.Cache
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.exe
+E:\PROG II\TRABAJO_PRACTICO_04\TP04\MainCorreo\obj\Debug\MainCorreo.pdb

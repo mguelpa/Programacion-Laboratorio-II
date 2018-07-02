@@ -7,14 +7,16 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Correo
+    public class Correo : IMostrar<List<Paquete>>
     {
         #region ** CLASS CORE **
         // >> Fields
         private List<Thread> mockPaquetes;
         private List<Paquete> paquetes;
 
-        // >> Properties
+        /// <summary>
+        /// retorna lista de paquetes
+        /// </summary>
         public List<Paquete> Paquetes
         {
             get { return this.paquetes; }
@@ -28,36 +30,35 @@ namespace Entidades
             this.paquetes = new List<Paquete>();
         }
 
-        // >> Show Data
-        public string MostrarDatos(IMostrar<List<Paquete>> elementos)
+        /// <summary>
+        /// retorna string con los datos de cada paquete
+        /// </summary>
+        /// <param name="elemento"></param>
+        /// <returns></returns>
+        public string MostrarDatos(IMostrar<List<Paquete>> elemento)
         {
-            // MostrarDatos utilizará string.Format con el siguiente 
-            // formato "{0} para {1} ({2})", p.TrackingID, p.DireccionEntrega, 
-            // p.Estado.ToString() para retornar los datos de todos 
-            // los paquetes de su lista.
             string s = string.Empty;
-
-            foreach (Paquete p in this.Paquetes)
+            if (elemento != null && elemento is Correo)
             {
-                s += String.Format("{0} para {1} ({2})", 
-                                   p.TrackingID, 
-                                   p.DireccionEntrega, 
-                                   p.Estado.ToString());
+                foreach (Paquete aux in ((Correo)elemento).Paquetes)
+                {
+                    s += String.Format("{0} para {1} ({2})", aux.TrackingID,
+                    aux.DireccionEntrega,
+                    aux.Estado.ToString());
+                }
             }
-
             return s;
         }
         #endregion
 
-        //#region ** CLASS METHODS **
+        /// <summary>
+        /// agrega cada paquete en la lista generada en correo verificando que no esten repetidos
+        /// </summary>
+        /// <param name="c"></param>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public static Correo operator +(Correo c, Paquete p)
         {
-
-            // Crear un hilo para el método MockCicloDeVida del paquete, y agregar dicho hilo a
-            // mockPaquetes.
-
-            // Ejecutar el hilo.
-
             foreach (Paquete aux in c.Paquetes)
             {
                 if(aux == p)
@@ -65,27 +66,32 @@ namespace Entidades
                     throw new TrackingIdRepetidoException("El paquete ya se encuentra en la lista");
                 }
             }
-            c.Paquetes.Add(p);            
-            Thread t = new Thread(new ThreadStart(p.MockCicloDeVida));
-            t.Start();
-            c.mockPaquetes.Add(t);
 
+            c.Paquetes.Add(p);            
+            Thread t = new Thread(p.MockCicloDeVida);
+            c.mockPaquetes.Add(t);
+            t.Start();
             return c;
         }
 
+        /// <summary>
+        /// cierra todos los hilos generaados
+        /// </summary>
         public void FinEntregas()
         {
-            //int i = 0;
             foreach(Thread t in this.mockPaquetes)
             {
-                try
+                if(t.IsAlive)
                 {
-                    t.Abort();
+                    try
+                    {
+                        t.Abort();
+                    }
+                    catch (Exception e)
+                    { }
                 }
-                catch (Exception)
-                { }
             }
         }
-        //#endregion
+
     }
 }
