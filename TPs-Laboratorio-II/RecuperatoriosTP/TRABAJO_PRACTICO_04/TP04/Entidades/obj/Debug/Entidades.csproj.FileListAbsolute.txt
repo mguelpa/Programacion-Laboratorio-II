@@ -6,3 +6,8 @@ E:\PROG II\TRABAJO_PRACTICO_04\TP04\Entidades\obj\Debug\Entidades.csprojResolveA
 E:\PROG II\TRABAJO_PRACTICO_04\TP04\Entidades\obj\Debug\Entidades.dll
 E:\PROG II\TRABAJO_PRACTICO_04\TP04\Entidades\obj\Debug\Entidades.pdb
 D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\TRABAJO_PRACTICO_04\TP04\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\RecuperatoriosTP\TRABAJO_PRACTICO_04\TP04\Entidades\bin\Debug\Entidades.dll
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\RecuperatoriosTP\TRABAJO_PRACTICO_04\TP04\Entidades\bin\Debug\Entidades.pdb
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\RecuperatoriosTP\TRABAJO_PRACTICO_04\TP04\Entidades\obj\Debug\Entidades.csprojResolveAssemblyReference.cache
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\RecuperatoriosTP\TRABAJO_PRACTICO_04\TP04\Entidades\obj\Debug\Entidades.dll
+D:\OneDrive\UTN\GITHUB\Programación-Laboratorio-II\TPs-Laboratorio-II\RecuperatoriosTP\TRABAJO_PRACTICO_04\TP04\Entidades\obj\Debug\Entidades.pdb
