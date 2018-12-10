@@ -1,0 +1,10 @@
+C:\Users\maxin\Desktop\E1\E1\bin\Debug\E1.exe.config
+C:\Users\maxin\Desktop\E1\E1\bin\Debug\E1.exe
+C:\Users\maxin\Desktop\E1\E1\bin\Debug\E1.pdb
+C:\Users\maxin\Desktop\E1\E1\obj\Debug\E1.exe
+C:\Users\maxin\Desktop\E1\E1\obj\Debug\E1.pdb
+D:\#UTN Fra\GITHUB\Programación-Laboratorio-II\E1 V1.2\E1\bin\Debug\E1.exe.config
+D:\#UTN Fra\GITHUB\Programación-Laboratorio-II\E1 V1.2\E1\obj\Debug\E1.exe
+D:\#UTN Fra\GITHUB\Programación-Laboratorio-II\E1 V1.2\E1\obj\Debug\E1.pdb
+D:\#UTN Fra\GITHUB\Programación-Laboratorio-II\E1 V1.2\E1\bin\Debug\E1.exe
+D:\#UTN Fra\GITHUB\Programación-Laboratorio-II\E1 V1.2\E1\bin\Debug\E1.pdb
