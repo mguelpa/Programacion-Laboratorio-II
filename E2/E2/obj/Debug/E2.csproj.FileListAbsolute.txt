@@ -1,0 +1,5 @@
+C:\Users\maxin\Desktop\E2\E2\bin\Debug\E2.exe.config
+C:\Users\maxin\Desktop\E2\E2\bin\Debug\E2.exe
+C:\Users\maxin\Desktop\E2\E2\bin\Debug\E2.pdb
+C:\Users\maxin\Desktop\E2\E2\obj\Debug\E2.exe
+C:\Users\maxin\Desktop\E2\E2\obj\Debug\E2.pdb
