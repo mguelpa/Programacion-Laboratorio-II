@@ -1,0 +1,11 @@
+C:\Users\maxin\Desktop\E4\E4\bin\Debug\E4.exe.config
+C:\Users\maxin\Desktop\E4\E4\bin\Debug\E4.exe
+C:\Users\maxin\Desktop\E4\E4\bin\Debug\E4.pdb
+C:\Users\maxin\Desktop\E4\E4\obj\Debug\E4.exe
+C:\Users\maxin\Desktop\E4\E4\obj\Debug\E4.pdb
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E4\E4\bin\Debug\E4.exe.config
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E4\E4\obj\Debug\E4.exe
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E4\E4\obj\Debug\E4.pdb
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E4\E4\bin\Debug\E4.exe
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E4\E4\bin\Debug\E4.pdb
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E4\E4\obj\Debug\E4.csprojResolveAssemblyReference.cache

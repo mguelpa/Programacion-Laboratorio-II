@@ -1,0 +1,5 @@
+C:\Users\maxin\Desktop\E5\E5\bin\Debug\E5.exe.config
+C:\Users\maxin\Desktop\E5\E5\bin\Debug\E5.exe
+C:\Users\maxin\Desktop\E5\E5\bin\Debug\E5.pdb
+C:\Users\maxin\Desktop\E5\E5\obj\Debug\E5.exe
+C:\Users\maxin\Desktop\E5\E5\obj\Debug\E5.pdb

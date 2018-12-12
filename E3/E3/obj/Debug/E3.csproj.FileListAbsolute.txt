@@ -1,0 +1,11 @@
+C:\Users\maxin\Desktop\E3\E3\bin\Debug\E3.exe.config
+C:\Users\maxin\Desktop\E3\E3\bin\Debug\E3.exe
+C:\Users\maxin\Desktop\E3\E3\bin\Debug\E3.pdb
+C:\Users\maxin\Desktop\E3\E3\obj\Debug\E3.exe
+C:\Users\maxin\Desktop\E3\E3\obj\Debug\E3.pdb
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E3\E3\bin\Debug\E3.exe.config
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E3\E3\obj\Debug\E3.exe
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E3\E3\obj\Debug\E3.pdb
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E3\E3\bin\Debug\E3.exe
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E3\E3\bin\Debug\E3.pdb
+C:\Users\maxin\Desktop\CONCEPTOS PROGRAMACION\#PROGRMACION EN C#\E3\E3\obj\Debug\E3.csprojResolveAssemblyReference.cache
